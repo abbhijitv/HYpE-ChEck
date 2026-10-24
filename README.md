@@ -1,8 +1,5 @@
 # 🔥 HYpE-ChEck
 
-
-# HypeCheck 🚀
-
 ### Don't guess what's viral. Check the hype.
 
 HypeCheck is an AI-powered creator research Skill for Cubbie that
