@@ -1,154 +1,165 @@
 # 🔥 HYpE-ChEck
 
+
+# HypeCheck 🚀
+
 ### Don't guess what's viral. Check the hype.
 
-**HypeCheck** is an AI-powered content research assistant built as a **Cubbie Skill** for creators who want to make smarter content decisions.
+HypeCheck is an AI-powered creator research Skill for Cubbie that
+helps aspiring content creators understand short-form video
+performance, research public content examples, and create
+better TikToks, YouTube Shorts, and Instagram Reels.
 
-Instead of simply suggesting random video ideas, HypeCheck researches publicly accessible videos, examines performance signals, compares successful and underperforming content, and helps creators decide **what to post next**.
+Built for the Cubbie Hackathon — Track 1.
 
-## 🚀 The Problem
+## The Problem
 
-Every day, creators ask:
+New creators often spend hours scrolling through social media,
+trying to figure out why some videos attract attention while
+their own posts struggle.
 
-- What should I post today?
-- What's working in my niche?
-- Why are some videos getting millions of views while others struggle?
-- How can I learn from successful content without copying it?
+They may not know:
 
-Finding answers means spending hours scrolling through TikTok, Instagram Reels, and YouTube Shorts.
+- What kind of content to make next
+- How to improve the first few seconds of a video
+- Which trends or formats are worth exploring
+- Whether their content has a hook, pacing, or payoff problem
+- How to turn research into a realistic filming plan
 
-**HypeCheck turns that research into an actionable content strategy.**
+Generic advice like "post more" or "use trending hashtags"
+doesn't solve these problems.
 
-## 💡 Our Solution
+## The Solution
 
-HypeCheck acts as your personal AI content research agent inside Cubbie.
+HypeCheck turns an everyday creator question into a
+research-informed content plan.
 
-Tell it your niche, platform, and content goals. It researches available public information and helps you identify patterns worth testing.
+A student can simply text Cubbie:
 
-### ✨ Key Features
+> My gym TikToks aren't getting views 😭 Can you check what's
+> working for other fitness creators and help me make a better one?
 
-**🔍 Viral Content Discovery**
+HypeCheck guides Cubbie to:
 
-Find publicly accessible, high-performing videos and emerging content formats relevant to your niche.
+1. Understand the creator's niche and goal.
+2. Research relevant public video examples.
+3. Compare available evidence carefully.
+4. Identify potentially useful content patterns.
+5. Generate original hooks, scripts, captions, and filming plans.
+6. Suggest measurable experiments for future posts.
 
-**📉 Performance Comparison**
+No special command or complicated prompt is required.
 
-Compare available performance signals from stronger- and weaker-performing videos, accounting for context such as posting dates and audience size when possible.
+## Key Features
 
-**🧠 Content Pattern Analysis**
+### 🔎 Public Video Research
 
-Examine observable elements such as titles, hooks, captions, formats, and storytelling approaches to identify possible reasons behind performance differences.
+Searches for accessible short-form content examples and
+publicly available performance metadata.
 
-**🎬 Personalized Video Ideas**
+### 📊 Evidence-Aware Comparisons
 
-Get content recommendations tailored to your niche, platform, audience, and filming constraints.
+Compares videos while accounting for limitations such as
+posting age, audience size, missing analytics, and inaccessible
+video content.
 
-**✍️ Ready-to-Film Content Plans**
+### 🎬 Original Content Ideas
 
-Receive suggested hooks, short scripts, captions, shot lists, and filming instructions.
+Generates niche-specific ideas, attention-grabbing hooks,
+scripts, captions, and practical shot lists.
 
-**⏰ Daily HypeCheck Briefings**
+### 🧪 Creator Experiments
 
-Optionally schedule personalized content research updates through Cubbie's reminder and scheduling capabilities.
+Helps creators test changes to hooks, storytelling, and
+viewer payoff, using appropriate metrics to learn over time.
 
-## ⚙️ How It Works
+### 💬 Natural Conversation
 
-1. **Ask:** Tell HypeCheck what kind of content you want to create.
-2. **Discover:** Cubbie searches for relevant, publicly accessible videos and sources.
-3. **Compare:** HypeCheck evaluates available performance evidence.
-4. **Analyze:** It identifies promising patterns and potential pitfalls.
-5. **Create:** It recommends original video concepts with actionable filming plans.
+Designed for short, human messages rather than technical
+commands or lengthy instructions.
 
-### 💬 Example
+## Example Prompts
 
-**You:**
+**Fitness creator**
 
-> HypeCheck fitness YouTube Shorts. What's working right now, and what should I film tomorrow?
+> My gym TikToks aren't getting views. What should I try next?
 
-**HypeCheck:**
+**College YouTuber**
 
-> I'll research recent fitness Shorts, compare available examples, and look for patterns worth testing.
->
-> Here's a potential concept:
->
-> **Video:** Can a college student hit their protein goal on $10?
->
-> **Hook:** "I have $10 and one day to hit my protein goal."
->
-> **Format:** Budget challenge + food breakdown + final result.
->
-> **Filming estimate:** 20–30 minutes.
->
-> I'll include links to the sources I can verify and distinguish actual performance evidence from creative suggestions.
+> My college day-in-the-life Shorts are flopping. Can you
+> help me make a more interesting one?
 
-*This is an illustrative example, not a claim about current video performance.*
+**Instagram creator**
 
-## 🛠️ Built With
+> I make budget meal Reels. What's working in that niche,
+> and what should I film this week?
 
-- **Cubbie AI** — Agent execution and conversational interface
-- **Agent Skills** — Reusable `SKILL.md` instructions
-- **Cubbie Web & Browser** — Public content research
-- **Cubbie Memory** — Creator preferences and feedback
-- **Cubbie Scheduling** — Optional recurring briefings
-- **GitHub** — Open-source Skill distribution
+**Creator with analytics**
 
-## 📦 Installation
+> My 30-second video has an average watch time of 6 seconds.
+> How should I improve my next post?
 
-HypeCheck is designed to run as a Cubbie Skill.
+## How to Install
 
-1. Open [Cubbie](https://cubbie.ai/) and set up your account.
-2. Send Cubbie this GitHub repository link:
+1. Open a conversation with Cubbie.
+2. Send the public GitHub repository URL:
+   https://github.com/abbhijitv/HYpE-ChEck
+3. Ask Cubbie to install the HypeCheck Skill from GitHub.
+4. Review the installation summary.
+5. Confirm installation when prompted.
+6. Ask a natural content-creation question.
 
-   `https://github.com/abbhijitv/HYpE-ChEck`
+If the repository changes, ask Cubbie to update the installed
+Skill to the newest GitHub commit and confirm the update.
 
-3. Review Cubbie's Skill installation summary.
-4. Reply **yes** to confirm installation.
-5. Start chatting with HypeCheck!
+## Example Demo
 
-**Note:** The Skill must be added to this repository as `SKILL.md` before installation will work.
+**User**
 
-## 🧪 Try These Prompts
+"My gym TikToks aren't getting views 😭 Can you check what's
+working for other fitness creators and help me make a better one?"
 
-- "HypeCheck the latest fitness YouTube Shorts."
-- "Compare high-performing and low-performing study videos."
-- "I have 30 minutes. What should I film for Instagram Reels?"
-- "Find content opportunities for a college lifestyle creator."
-- "Give me three video ideas based on recent public trends."
-- "Help me plan a week of short-form content."
+**HypeCheck workflow**
 
-## 🎯 Who Is It For?
+1. Identify fitness TikTok as the creator's niche.
+2. Research publicly accessible examples.
+3. Explain what the available evidence suggests.
+4. Generate three original fitness video ideas.
+5. Produce a hook, script, filming plan, and caption.
+6. Recommend what to measure after posting.
 
-HypeCheck is designed for:
+The exact research results depend on what sources Cubbie
+can access during the demo.
 
-- Student content creators
-- Aspiring influencers
-- YouTubers and streamers
-- Small business owners
-- Social media managers
-- Anyone who wants to create more informed, engaging content
+## Technology
 
-## ⚠️ Limitations & Transparency
+- Cubbie Skills
+- GitHub-hosted SKILL.md
+- Cubbie's available web research capabilities
+- Natural-language instructions
+- Optional Cubbie memory and scheduling capabilities,
+  when available and authorized
 
-HypeCheck uses publicly accessible information and does not guarantee access to live TikTok, Instagram, or YouTube analytics.
+No separate API key or external paid service is required
+by this Skill.
 
-Video performance can depend on audience size, publishing date, distribution, and other factors. HypeCheck treats performance explanations as hypotheses rather than proven causes.
+## Limitations
 
-When evidence is unavailable, HypeCheck clearly labels suggestions as creative ideas instead of verified trends.
+HypeCheck does not guarantee viral videos.
 
-**HypeCheck does not guarantee virality. It helps creators make better-informed decisions.**
+It may not have access to private analytics, live platform
+metrics, video playback, or audiovisual content.
 
-## 🏆 Hackathon
+When a platform is inaccessible, HypeCheck should clearly
+state the limitation and avoid inventing observations.
 
-Built for the **Cubbie Hackathon at Arizona State University**.
+Research findings are distinguished from creative hypotheses.
 
-**Track:** Track 1 — Cubbie Skills
+## Project Goal
 
-**Project:** HypeCheck
+Make useful creator research and content planning accessible
+to students and beginner creators through a simple
+conversation with Cubbie.
 
-**Mission:** Help creators spend less time guessing and more time creating.
+**HypeCheck — Don't guess what's viral. Check the hype.**
 
----
-
-### 🔥 HypeCheck
-
-**Check the hype. Create your next hit.**
