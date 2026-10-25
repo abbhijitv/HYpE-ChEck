@@ -1,6 +1,6 @@
 # 🔥 HYpE-ChEck
 
-### Don't guess what's viral. Check the hype.
+## Don't guess what's viral. Check the hype.
 
 **Less scrolling. More creating. Better content. 🚀**
 
