@@ -1,4 +1,4 @@
-<escape>---
+---
 name: hypecheck
 description: >
   HypeCheck is an evidence-aware short-form content research and
